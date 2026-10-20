@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venda Global</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #172033;
+    }
+
+    header {
+      background: #123c7a;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    nav {
+      background: #092b5c;
+      padding: 14px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px;
+    }
+
+    .hero {
+      padding: 35px 20px;
+      text-align: center;
+      background: white;
+    }
+
+    .hero h2 {
+      color: #123c7a;
+    }
+
+    .button {
+      display: inline-block;
+      background: #087f5b;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .products {
+      padding: 25px 15px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #00000012;
+    }
+
+    .card h3 {
+      color: #123c7a;
+    }
+
+    footer {
+      background: #092b5c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌍 Venda Global</h1>
+    <p>O teu mercado de produtos digitais</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#vendedores">Vendedores</a>
+  </nav>
+
+  <section class="hero" id="inicio">
+    <h2>Aprende, compra e vende online!</h2>
+    <p>Descobre ebooks e cursos digitais num só lugar.</p>
+    <a href="#produtos" class="button">Explorar produtos</a>
+  </section>
+
+  <section class="products" id="produtos">
+    <article class="card">
+      <h3>📘 Marketing Digital</h3>
+      <p>Aprende os fundamentos do marketing digital.</p>
+      <p><strong>Preço:</strong> A definir</p>
+      <a href="#vendedores" class="button">Saber mais</a>
+    </article>
+
+    <article class="card">
+      <h3>🎓 Cursos Online</h3>
+      <p>Descobre cursos para desenvolver novas competências.</p>
+      <p><strong>Preço:</strong> A definir</p>
+      <a href="#vendedores" class="button">Saber mais</a>
+    </article>
+  </section>
+
+  <section class="hero" id="vendedores">
+    <h2>Queres vender na Venda Global?</h2>
+    <p>Estamos a preparar a área para vendedores.</p>
+    <p>Em breve, poderás apresentar os teus produtos.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Venda Global</p>
+    <p>O teu mercado de produtos digitais.</p>
+  </footer>
+
+</body>
+</html>
